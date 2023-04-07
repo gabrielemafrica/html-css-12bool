@@ -1,0 +1,64 @@
+.blue{
+    background-color: rgb(0, 110, 244);
+}
+
+[class*="col-"] {
+    background-color: rgb(0, 110, 244);
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    height: 40px;
+}
+
+.nested [class*="col-"] {
+
+    background-color: rgb(0, 227, 111);
+    border: 1px solid rgb(0, 110, 244);
+
+}
+
+.nested{
+    padding: 10px;
+    height: auto;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+
+.center{
+    justify-content: center;
+}
+
+
+.end{
+    justify-content: flex-end;
+}
+
+.middle{
+    align-items: center;
+}
+
+.bottom{
+    align-items: flex-end;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+.double{
+    height: 80px;
+}
